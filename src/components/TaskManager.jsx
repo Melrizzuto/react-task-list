@@ -8,12 +8,12 @@ const TaskManager = () => {
 
     return (
         <div className="container mt-4">
-            <header className="text-center bg-info p-3 mb-4">
+            <header className="text-center bg-info p-3">
                 <h1>Task Manager</h1>
             </header>
 
             <section>
-                <h2 className="mb-3">Current Tasks ({currentTasks.length})</h2>
+                <h2 className="m-3">Current Tasks ({currentTasks.length})</h2>
                 <ul className="list-group mb-4">
                     {currentTasks.map((task) => (
                         <li
@@ -34,7 +34,7 @@ const TaskManager = () => {
             </section>
 
             <section>
-                <h2 className="mb-3">Completed Tasks ({completedTasks.length})</h2>
+                <h2 className="m-3">Completed Tasks ({completedTasks.length})</h2>
                 <ul className="list-group">
                     {completedTasks.map((task) => (
                         <li
