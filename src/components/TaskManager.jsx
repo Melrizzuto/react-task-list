@@ -12,7 +12,6 @@ const TaskManager = () => {
                 <h1>Task Manager</h1>
             </header>
 
-
             <section>
                 <h2 className="mb-3">Current Tasks ({currentTasks.length})</h2>
                 <ul className="list-group mb-4">
