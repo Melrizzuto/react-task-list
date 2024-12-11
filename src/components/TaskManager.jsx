@@ -8,7 +8,10 @@ const TaskManager = () => {
 
     return (
         <div className="container mt-4">
-            <h1 className="text-center bg-info p-3 mb-4">Task Manager</h1>
+            <header className="text-center bg-info p-3 mb-4">
+                <h1>Task Manager</h1>
+            </header>
+
 
             <section>
                 <h2 className="mb-3">Current Tasks ({currentTasks.length})</h2>
