@@ -10,3 +10,5 @@ export const tasks = [
     { id: 9, title: "Aggiornare la documentazione", priority: 3, estimatedTime: 60, state: "backlog" },
     { id: 10, title: "Rifattorizzare il codice CSS", priority: 2, estimatedTime: 90, state: "in_progress" }
 ];
+
+export default tasks
