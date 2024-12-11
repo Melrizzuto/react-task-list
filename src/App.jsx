@@ -1,13 +1,12 @@
-import tasks from "./data/tasks"
+
+import TaskManager from './components/TaskStructure';
 
 function App() {
-
-
   return (
-    <>
-
-    </>
-  )
+    <div>
+      <TaskManager />
+    </div>
+  );
 }
 
-export default App
+export default App;
