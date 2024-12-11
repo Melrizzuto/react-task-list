@@ -1,5 +1,5 @@
 
-import TaskManager from './components/TaskStructure';
+import TaskManager from './components/TaskManager';
 
 function App() {
   return (
