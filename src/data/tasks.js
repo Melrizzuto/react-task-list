@@ -11,4 +11,4 @@ export const tasks = [
     { id: 10, title: "Rifattorizzare il codice CSS", priority: 2, estimatedTime: 90, state: "in_progress" }
 ];
 
-export default tasks
+export default tasks;
